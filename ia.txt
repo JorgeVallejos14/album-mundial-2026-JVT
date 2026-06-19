@@ -14,3 +14,23 @@ Resultado: Me genero el arreglo y desde mi pagina al hacer click a algun sticker
 Prompt: "Agrega un campo de búsqueda de texto con useState que filtre las figuritas por nombre o número, Agrega botones o un selector para filtrar por estado: "Todas", "Tengo", "Repetidas", "Faltan", Aplica ambos filtros simultáneamente sobre el array antes de renderizar las tarjetas y Muestra el total de figuritas visibles según el filtro activo"
 Resultado: Me genero el buscador de jugadores y la etiqueta de tengo, repetido o falta con cada jugador buscado y escogido.
 
+=== Etapa 5 ===
+Prompt: "Que el componente AlbumSummary.jsx muestre:
+
+•
+Total de figuritas en el álbum
+
+•
+Cuántas tiene el usuario (tengo)
+
+•
+Cuántas están repetidas
+
+•
+Cuántas faltan
+
+•
+Porcentaje de completitud del álbum
+
+Usa useEffect para guardar el estado de la colección en localStorage cada vez que cambie, Usa useEffect para recuperar el estado guardado de localStorage al cargar la app (si existe) y Verifica que al recargar la página el estado se mantiene."
+Resultado: Genero la estructura y el resumen muestra totalmente el album, cuantas tienes el usuario, el porcentaje total de cartas y cuantos les falta y cuantos tiene el usuario.
