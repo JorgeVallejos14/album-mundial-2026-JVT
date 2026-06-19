@@ -1,9 +1,7 @@
 === Etapa 1 ===
-Prompt: "crea la estructura de carpetas para un proyecto React con Vite"
-Resultado: me generó la estructura pero sin la carpeta data/, la tuve que crear yo.
-Utilidad: parcialmente útil.
+Prompt: "Modifica App.jsx para importar y mostrar en consola el array de figuritas (console.log)"
+Resultado: me generó la estructura con el import puesto pero con return null.
 
 === Etapa 2 ===
-Prompt: "crea un componente StickerCard que reciba number, name, group y status como props"
-Resultado: el componente funcionó bien, solo cambié los colores de los estilos.
-Utilidad: útil.
+Prompt: "El componente debe recibir las siguientes props: number, name, group, status, Muestra la información de la figurita de forma visual (número, nombre, grupo), Aplica estilos básicos según el status: fondo verde para "tengo", amarillo para "repetida", gris para "falta" (puedes usar estilos en línea o CSS) y en App.jsx, renderiza al menos 5 figuritas usando el componente, pasando los datos desde el array importado."
+Resultado: Me genero los props con los registro de los stickers de stickers.js como ejemplo tengo o no tengo
