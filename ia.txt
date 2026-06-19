@@ -5,3 +5,7 @@ Resultado: me generó la estructura con el import puesto pero con return null.
 === Etapa 2 ===
 Prompt: "El componente debe recibir las siguientes props: number, name, group, status, Muestra la información de la figurita de forma visual (número, nombre, grupo), Aplica estilos básicos según el status: fondo verde para "tengo", amarillo para "repetida", gris para "falta" (puedes usar estilos en línea o CSS) y en App.jsx, renderiza al menos 5 figuritas usando el componente, pasando los datos desde el array importado."
 Resultado: Me genero los props con los registro de los stickers de stickers.js como ejemplo tengo o no tengo
+
+=== Etapa 3 ===
+Prompt: "En App.jsx, usa useState para manejar un objeto de estados: { [id]: "falta" | "tengo" | "repetida" }, Inicializa el estado con todas las figuritas en "falta", Crea una función handleStatusChange(id) que alterne el estado de una figurita en el orden: falta → tengo → repetida → falta, Pasa la función como prop a StickerCard y ejecútala al hacer click en la tarjeta y q el componente debe mostrar visualmente el estado actual (el estilo debe cambiar al hacer click)"
+Resultado: Me genero el arreglo y desde mi pagina al hacer click a algun sticker me registra que si tengo, repetido o no tengo cada sticker seleccionado.
